@@ -1,0 +1,8 @@
+Ideas: 
+
+- My presentation website
+
+- Home page
+- Contact page
+    - Add email sender services
+- Where I am

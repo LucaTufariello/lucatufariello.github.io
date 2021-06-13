@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="snow"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = function(){
+        particlesJS("snow", {
+            "particles": {
+                "number": {
+                    "value": 200,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "opacity": {
+                    "value": 0.7,
+                    "random": false,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 5,
+                    "direction": "bottom",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": true,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": false
+                }
+            },
+            "retina_detect": true
+        });
+    }
+    document.head.append(script);
+});
+    </script>
+
+    
+
+    <header id="hd">
+
+        <a id="b1" href="mailpage.html"><img id="img1" src="logomail2.png"></a>
+        <h1 id="Title">This is my website</h1>
+    </header>
+
+
+    <box id="box1">
+        <h1 id="testo1">Luca</h1>
+    </box>
+
+    <box id="box2">
+        <h1 id="testo2">Tufariello</h1>
+    </box>
+
+    <box id="box3">
+        <h1 id="testo3">18</h1>
+    </box>
+
+    <box id="box4">
+        <h1 id="testo4">Milan</h1>
+    </box>
+
+    <box id="bigbox">
+        <h1 id="bigtext">Hi, welcome here to my website! <br> I love to create, to give people new experiences to enjoy their days! <br> I always try to create something easy, but it needs to be very effective too! <br> So again... welcome here to my presentation website!</h1>
+    </box>
+    
+    
+</body>
+</html>

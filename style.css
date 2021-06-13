@@ -1,0 +1,60 @@
+body{background-image: url("cwallpaper.png"); margin: 0px; width: auto; height: auto; overflow-x: hidden; }
+
+#hd{background-color: cornflowerblue; height: 40px; opacity: 90%;}
+
+#img1{width: 1920px; height: 1080px;}
+
+
+#Title{text-align: center; margin: 0px; width: 300px; height: 40px; margin-left: 42%; position: relative; margin-top: -38px; color: white;}
+
+#b1{width: 60px; height: 70px; margin-top: -30px; position: static; margin-left: 97%;}
+
+#img1{width: 50px; height: 30px; position: static; margin-top: 5px;}
+
+#box1{position: absolute; margin-top: 100px; width: 230px; margin-left: 320px; height: 230px; border-radius: 30px; background-color:cornflowerblue; opacity: 50%;}
+#box1:hover{opacity: 100%;}
+#testo1{text-align: center; font-size: 35px; position: static; margin-top: 38%; font-family: 'Courier New', Courier, monospace; color: white;}
+
+#box2{position: absolute; margin-top: 100px; width: 230px; margin-left: 670px; height: 230px; border-radius: 30px; background-color:cornflowerblue; opacity: 50%;}
+#box2:hover{opacity: 100%;}
+#testo2{text-align: center; font-size: 35px; position: static; margin-top: 38%; font-family: 'Courier New', Courier, monospace; color: white;}
+
+#box3{position: absolute; margin-top: 100px; width: 230px; margin-left: 1020px; height: 230px; border-radius: 30px; background-color:cornflowerblue; opacity: 50%;}
+#box3:hover{opacity: 100%;}
+#testo3{text-align: center; font-size: 35px; position: static; margin-top: 38%; font-family: 'Courier New', Courier, monospace; color: white;}
+
+#box4{position: absolute; margin-top: 100px; width: 230px; margin-left: 1370px; height: 230px; border-radius: 30px; background-color:cornflowerblue; opacity: 50%;}
+#box4:hover{opacity: 100%;}
+#testo4{text-align: center; font-size: 35px; position: static; margin-top: 38%; font-family: 'Courier New', Courier, monospace; color: white;}
+
+#bigbox{background-color: cornflowerblue; position: absolute; width: 100px; margin-top: 500px; margin-left: 320px; border-radius: 30px; width: 1270px;  height: 230px; opacity: 50%;}
+#bigbox:hover{opacity:100%;}
+#bigtext{text-align: center; font-size: 30px; color: white; position: static; font-family:'Courier New', Courier, monospace;}
+
+
+
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+
+
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

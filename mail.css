@@ -1,0 +1,53 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+
+
+  body{background-image: url("cwallpaper.png"); margin: 0px; width: auto; height: auto; overflow-x: hidden; }
+
+  #hd{background-color: cornflowerblue; height: 40px; opacity: 80%;}
+
+
+
+#Title{text-align: center; margin: 0px; width: 300px; height: 40px; margin-left: 42%; position: relative; margin-top: -41px;}
+
+#b1{width: 60px; height: 70px; margin-top: -30px; position: static; margin-left: 97%;}
+
+#img1{width: 40px; height: 40px; position: static; margin-top: -2px;}
+
+
+
+#testomail{text-align: center; color: white; font-family: 'Courier New', Courier, monospace;}
+
+input{margin-left: 810px; border: none; margin-top: 20px;}
+
+#nome{background-color: cornflowerblue; opacity: 50%; color: white; height: 20px; width: 350px;}
+#nome:hover{opacity: 100%;}
+
+#mails{background-color: cornflowerblue; opacity: 50%; color: white; width: 350px; height: 20px;}
+#mails:hover{opacity: 100%;}
+
+#comment{background-color: cornflowerblue; opacity: 50%; color: white; width: 350px; height: 60px;}
+#comment:hover{opacity: 100%;}
+
+#invia{background-color: cornflowerblue; opacity: 80%; color: white; cursor: pointer; width: 350px; height: 40px; font-size: 20px; font-family: 'Courier New', Courier, monospace; font-weight: bold;}
+
+
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000;
+}

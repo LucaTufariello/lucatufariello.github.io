@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SendMeEmail</title>
+    <link rel="stylesheet" href="mail.css">
+</head>
+<body>
+    
+    <header id="hd">
+
+        <a id="b1" href="index.html"><img id="img1" src="homelogo.png"></a>
+        <h1 id="Title">Send me Email</h1>
+
+    </header>
+
+    <h2 id="testomail">Contact me via email:</h2>
+
+<form action="mailto:lucatufariello1@gmail.com" method="post" enctype="text/plain">
+
+<input id="nome" type="text" placeholder="Nome e cognome" name="name"><br>
+
+<input id="mails" type="text" placeholder="Tua mail" name="mail"><br>
+
+<input id ="comment" type="text" placeholder="Scrivi..." name="comment" size="50"><br><br>
+
+<input id="invia" type="submit" value="Send">
+</form>
+
+
+<div id="snow"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+var script = document.createElement('script');
+script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+script.onload = function(){
+    particlesJS("snow", {
+        "particles": {
+            "number": {
+                "value": 200,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "opacity": {
+                "value": 0.7,
+                "random": false,
+                "anim": {
+                    "enable": false
+                }
+            },
+            "size": {
+                "value": 5,
+                "random": true,
+                "anim": {
+                    "enable": false
+                }
+            },
+            "line_linked": {
+                "enable": false
+            },
+            "move": {
+                "enable": true,
+                "speed": 5,
+                "direction": "bottom",
+                "random": true,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": true,
+                    "rotateX": 300,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "events": {
+                "onhover": {
+                    "enable": false
+                },
+                "onclick": {
+                    "enable": false
+                },
+                "resize": false
+            }
+        },
+        "retina_detect": true
+    });
+}
+document.head.append(script);
+});
+</script>
+
+
+</body>
+</html>
